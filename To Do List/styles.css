@@ -1,0 +1,32 @@
+body {
+  background: #e2e2e2;
+  color: #000000;
+}
+.container {
+  max-width: 400px;
+margin-top: 250px;
+border: 1px solid rgba(14, 13, 13, 0.2);
+border-radius: 15px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #000000;
+  border: none;
+  background: rgba(14, 13, 13, 0.2);
+  max-width: 400px;
+}
+.todos li {
+  background: #272929;
+}
+.delete {
+  cursor: pointer;
+}
+.filtered {
+  display: none !important;
+}
+.mb-4{
+  color:black
+}
+.text-light{
+  color:#272929 ;
+}
